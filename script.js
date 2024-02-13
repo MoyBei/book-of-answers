@@ -1,4 +1,4 @@
-$('body').on('click', function() {
+$('html').on('click', function() {
     if ($(".container2").hasClass("hide")) {
         var answer = getRandomAnswer();
         $(".answer").text(answer);
